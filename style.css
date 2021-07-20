@@ -67,7 +67,7 @@ body{
 }
 
 .contacts{
-    
+    margin-left: 20px;
 }
 
 .number{
@@ -86,7 +86,7 @@ body{
 .menu{
     display: flex;
     flex-direction: row;
-    margin-right: 75px;
+    margin-right: 50px;
 }
 
 .menu-items-href{
