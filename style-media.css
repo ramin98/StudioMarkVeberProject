@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1190px){
+body{
+    background-image: url('img/DJI.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.display-none{
+    display: none;
+}
+
+.menu{
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu-tel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-tel-container{
+
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+
+
+.container-menu{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu-items-href-tel{
+    text-decoration: none;
+    color: black;
+    cursor: url('img/Group.png'), auto;
+    transition: 0.4s;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contacts{
+    display: none;
+}
+
+.telephone-img{
+    display: flex;
+    cursor: url('img/Group.png'), auto;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+    cursor: url('img/Group.png'), auto;
+  }
+
+.menu-items-href{
+    display: none;
+}
+
+.main{
+    margin-top: 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.finance-social{
+    display: none;
+}
+
+.places-div-container{
+    display: none;
+}
+
+.slider{
+    display: none;
+}
+
+.places-choose-text-p{
+    font-size: 26px;
+    width: 340px;
+    margin-left: 18px;
+}
+
+.places-choose-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.places-choose-buttons-first{
+    margin-left: 18px;
+
+}
+
+.places-choose-href{
+    margin-top: 30px;
+    margin-left: 18px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.filter{
+    display: none;
+}
+
+.search-form{
+    background-color: rgba(255, 255, 255, 0.16);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .search-input{
+        background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 90%;
+    font-family: Core-Sans-Regular;
+    font-size: 14px;
+    display: flex;
+    outline: none;
+}
+
+.search-input::-webkit-input-placeholder { color: rgb(255, 255, 255); }
+
+
+#myVideo{
+    display: none;
+}
+
+.bar1-x {
+    width: 40px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+    transition: 0.4s;
+    -webkit-transform: rotate(-45deg) translate(-0px, 6px);
+    transform: rotate(-45deg) translate(-0px, 6px);
+  }
+
+  .bar3-x {
+    width: 40px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+    transition: 0.4s;
+    -webkit-transform: rotate(45deg) translate(-0px, -6px);
+    transform: rotate(45deg) translate(-0, -6px);
+  }
+
+
+
+.search-img{
+    margin-right: 10px;
+    display: block;
+}
+
+}

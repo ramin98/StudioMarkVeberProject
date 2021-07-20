@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-media.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="video/2499471461.mp4" type="video/mp4">
+          </video> 
+          <video autoplay muted loop id="myVideo" class="video-two">
+            <source src="video/Flowers - 64035.mp4" type="video/mp4">
+          </video>
+        <div class="content">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <div class="logo-img">Life</div>
+                    <span class="logo-text">development</span>
+                </div>
+                 <div class="contacts">
+                     <p class="number">8 800 222-37-90</p>
+                     <p class="work-time">Работаем ежедневно с 10:00 до 20:00</p>
+                 </div>
+                 <div class="menu">
+                     <a class="menu-items-href" href="#"><span class="menu-items">Квартиры</span></a>
+                     <a class="menu-items-href" href="#"><span class="menu-items">Ипотека</span></a>
+                     <a class="menu-items-href" href="#"><span class="menu-items">Коммерция</span></a>
+                     <a class="menu-items-href" href="#"><span class="menu-items">Управляющая компания</span></a>
+                     <img class="telephone-img" src="img/tel.png" alt="">
+                 <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar3"></div>
+                 </div> 
+                 </div> 
+                 <div class="menu-tel-container display-none-menu">
+                    <div class="container-menu" onclick="button()">
+                        <div class="bar1-x"></div>
+                        <div class="bar3-x"></div>
+                 </div>
+                 <div class="menu-tel">                    
+                    <a class="menu-items-href-tel" href="#"><span class="menu-items">Квартиры</span></a>
+                    <a class="menu-items-href-tel" href="#"><span class="menu-items">Ипотека</span></a>
+                    <a class="menu-items-href-tel" href="#"><span class="menu-items">Коммерция</span></a>
+                    <a class="menu-items-href-tel" href="#"><span class="menu-items">Управляющая компания</span></a>
+                </div>           
+                 </div>
+                 
+            </nav>
+        </header>
+        <main class="main">
+            <div class="finance-social">
+                <img class="finance" src="img/Group-892.png" alt="">
+                <div class="social-network">
+                    <img class="social-network-item" src="img/face.png" alt="">
+                    <img class="social-network-item" src="img/inst.png" alt="">
+                    <img class="social-network-item" src="img/twit.png" alt="">
+                    <img class="social-network-item" src="img/vk.png" alt="">
+                </div>
+            </div>
+            <div class="places-div-container">
+                <div class="places-div">
+                <div class="places-first">
+                    <a class="places-href place-one" href="">Северный парк</a>
+                    <a class="places-href place-two" href="">Станция Столичная</a>
+                    <a class="places-href place-three" href="">Лето</a>
+                    <a class="places-href place-four" href="">Сказочный сад</a>
+                    <a class="places-href place-five" href="">Краски</a>
+                </div>
+                <div class="places-second">
+                    <a class="places-href place-six" href="">Ренесанс</a>
+                    <a class="places-href place-seven" href="">Компасс сити</a>
+                    <a class="places-href place-eight" href="">Бруклин</a>
+                    <a class="places-href place-nine" href="">Монблан</a>
+                </div>
+                </div>
+                <div class="places-div-subscribe" style="display: none;">
+                    <img class="subscribe-img" src="img/img.png" alt="">
+                    <p class="subscribe-text" style="margin: 0px; margin-top:10px;font-size: 12px;">Северный парк</p>
+                    <p class="subscribe-text" style="color: #FFFFFF;opacity: 0.4; margin: 0px;margin-top:10px;font-size: 12px;">Северный парк - место невероятно комфортное и удобное</p>
+                </div>
+            </div>
+            <div class="places-choose">
+                <div class="slider">
+                    <div class="slider-left" onclick="slider_left()"> < </div>
+                    <div class="slider-right" onclick="slider_right()"> > </div>
+                </div>
+                <div class="places-choose-text">
+                    <p class="places-choose-text-p">
+                        Стильная архитектура и виды из окон будущей квартиры не оставят равнодушных
+                    </p>
+                    <div class="places-choose-buttons">
+                        <button class="places-choose-buttons-first">+ Выбрать квартиру</button>
+                        <a class="places-choose-href" href="">Купить квартиру онлайн ></a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="filter">
+                <div class="room-count-div">
+                    <p class="room-count-text">Количество комнат</p>
+                    <div class="room-count">
+                         <div class="room-subscribe">Студия</div>
+                         <div class="room-figure">1</div>
+                         <div class="room-figure">2</div>
+                         <div class="room-figure">3</div>
+                         <div class="room-figure room-figure-four">4</div>
+                    </div>
+                </div> 
+                <div class="room-size-div">
+                    <p class="room-size-text">Площадь</p>
+                    <div class="room-size">
+                         <div class="room-size-item"><span style="color: #FFFFFF;opacity: 0.4;">от</span><span>32 м²</span></div>
+                         <div class="room-size-item-second"><span style="color: #FFFFFF;opacity: 0.4;">до</span><span>186 м²</span></div>
+                    </div>
+                </div> 
+                <div class="room-price-div">
+                    <p class="room-price-text">Стоимость, млн ₽</p>
+                    <div class="room-price">
+                         <div class="room-price-item"><span style="color: #FFFFFF;opacity: 0.4;">от</span><span>1.5</span></div>
+                         <div class="room-price-item-second"><span style="color: #FFFFFF;opacity: 0.4;">до</span><span>17.5</span></div>
+                    </div>
+                </div> 
+                <div class="select-div">
+                    <p class="select-text">Жилой комслекс</p>
+                    <select class="select">
+                         <option class="select-option">Студия</optin>
+                         <option class="select-option">Квартира</optin>
+                         <option class="select-option">Коттедж</optin>
+                    </select>
+                </div> 
+                <div class="more-filter">
+                    <div class="more-filter-div">
+                    <img src="img/Vector.png" alt="">
+                    <span class="more-filter-text">Еще фильтры</span>
+                    </div>
+                </div>
+                <div class="more-rooms">
+                    <span class="more-rooms-text">Показать 120 квартир</span>
+                </div>
+            </div>
+            <form class="search-form" action="">
+            <input class="search-input" type="search" placeholder="Подобрать квартиру">
+            <img class="search-img search-none" src="img/Search.png" alt="">
+            </form>
+        </footer>
+        </div>
+        <script src="js.js"></script>
+    </body>
+</html>
