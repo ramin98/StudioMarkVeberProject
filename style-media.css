@@ -206,4 +206,13 @@ body{
     display: block;
 }
 
+.logo-fin-mob{
+    display: block;
+    margin-left: -71px;
+    margin-top: 270px;
+    width: 58px;
+    height: 55px;
+}
+    
+    
 }
