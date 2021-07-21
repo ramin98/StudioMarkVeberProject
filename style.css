@@ -30,7 +30,12 @@ body{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    animation: showDiv 1s alternate;
 }
+
+@keyframes showDiv {
+    from {opacity: 0.1}
+  to {opacity: 1}}
 
 .nav{
     display: flex;
